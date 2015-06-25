@@ -19,6 +19,11 @@ define(function (require) {
             this.log('characterId = ' + characterId);
         },
 		
+		getCharacterId: function () {
+            var characterId = this.model.get('characterId');
+            return characterId;
+        },
+		
 		log: function (message) {
 			console.log('adapt-character:log:' + message);
 		}
