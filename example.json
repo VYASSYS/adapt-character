@@ -1,0 +1,12 @@
+{
+    "_id": "c55",
+    "_parentId": "b-20",
+    "_type": "component",
+    "_component": "character",
+    "_classes": "",
+    "_layout": "right",
+    "title": "Character",
+    "body": "Character component.",
+    "instruction": "",
+    "characterId": "Mario"
+}
