@@ -14,10 +14,10 @@ define(function (require) {
             //this.setCharacter();
         }
 
-        //setCharacter: function () {
-        //    var characterId = this.model.get('characterId');
-        //    alert(characterId);
-        //}
+        setCharacter: function () {
+            var characterId = this.model.get('characterId');
+            alert(characterId);
+        }
     });
 
     Adapt.register('character', Character);
