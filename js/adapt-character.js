@@ -16,8 +16,12 @@ define(function (require) {
 
         setCharacter: function () {
             var characterId = this.model.get('characterId');
-            alert(characterId);
-        }
+            this.log('characterId = ' + characterId);
+        },
+		
+		log: function (message) {
+			console.log('adapt-character:log:' + message);
+		}
     });
 
     Adapt.register('character', Character);
