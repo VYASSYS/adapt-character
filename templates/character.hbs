@@ -1,9 +1,13 @@
 <div class="graphic-inner component-inner">
     {{> component this}}
-    <div class="component-widget character-widget">
-		<img src="assets/character-{{characterId}}.svg" />
-		<blockquote class="oval-thought-border">
-		    <p>{{speech}}</p>
-		</blockquote>	
+    <div class="component-widget character-widget character">
+		<div class="svg-container">
+			<img src="assets/character-{{characterId}}.svg" />
+		</div>
+		<div class="speech-container">
+			<blockquote class="speech-bubble">
+				<p>{{speech}}</p>
+			</blockquote>
+		</div>
     </div>
 </div>

@@ -1,6 +1,6 @@
 {
     "name": "adapt-character",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "description": "Adapt Authoring plugin component. Represents a character.",
     "main": "",
     "scripts": {
