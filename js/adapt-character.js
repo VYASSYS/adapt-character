@@ -12,7 +12,7 @@ define(function (require) {
             this.setReadyStatus();
             //this.setCompletionStatus();
             this.setCharacter();
-        }
+        },
 
         setCharacter: function () {
             var characterId = this.model.get('characterId');
