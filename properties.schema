@@ -14,8 +14,14 @@
         "characterId": {
             "type": "string",
             "required": true,
-            "inputType": {"type": "Select", "options":["Mario", "Luigi"]},
-            "default": "Mario"
-        }
+            "inputType": {"type": "Select", "options":["Mario", "Luigi","Bird"]},
+            "default": "Bird"
+        },
+        "speech": {
+			"type": "string",
+			"required": true,
+			"default": "",
+			"inputType": "Text"
+		}
     }
 }

@@ -3,7 +3,7 @@
     "displayName": "Character",
     "keywords": [ "adapt-component" ],
     "component": "character",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "authors": [ "Raccoon" ],
     "description": "Adapt Authoring plugin component. Represents a character.",
     "main": "/js/adapt-character.js",

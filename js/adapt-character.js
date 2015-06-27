@@ -16,12 +16,9 @@ define(function (require) {
 
         setCharacter: function () {
             var characterId = this.model.get('characterId');
+            var speech = this.model.get('speech');
             this.log('characterId = ' + characterId);
-        },
-		
-		getCharacterId: function () {
-            var characterId = this.model.get('characterId');
-            return characterId;
+            this.log('speech = ' + speech);
         },
 		
 		log: function (message) {
