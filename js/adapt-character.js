@@ -11,7 +11,7 @@ define(function (require) {
         postRender: function () {
             this.setReadyStatus();
             //this.setCompletionStatus();
-            //this.setCharacter();
+            this.setCharacter();
         }
 
         setCharacter: function () {
